@@ -1,16 +1,206 @@
 <!DOCTYPE html>
 <html lang="es">
     <!--Buen dia, este es el codigo inicial del documento html que hare sobre mi mismo-->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algo sobre mí</title>
-</head>
-<body>
-    <h1>Mi yo de niño</h1>
-    <a href="www.linkedin.com/in/leonhard-iglesias-vargas-83b21622b">a mi linkding</a>
-    <p>Mi correo es: leonhardiv94@gmail.com</p>
-    <p>Me gustan las orquideas, hoy le tome una foto a una</p>
-    <img src="/Users/Leonhard/Pictures/orquidea.jpg" alt="probando 1,2,3"/>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Algo sobre mí</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>        
+            <h1>Tengan buen dia, esta es una foto inicial sobre mi.</h1>
+            <img src="assests/me.jpg" alt="Foto cuerpo entero sobre mi">
+            <p>Mi nombre es Leonhard Iglesias Vargas, tengo 29 años, soy Ingeniero Industrial,
+                vivo en Barranquilla y soy supervisor comercial.
+            </p>
+        </header>
+        <main>
+            <nav>
+                <section>
+                    <h2>Donde y cuando nací</h2>
+                    <p>Yo Leonhard Iglesias Vargas naci en barranquilla a las 10:30 PM del 04 de octubre de 1994,
+                        no recuerdo como se llamaba el hospital, pero como mis papas vivian en ese entonces en 
+                        Polonevo - Atlantico, al dia siguiente viajaron y me registraron alla y quede como
+                        nacido en Polonevo en mi registro civil y ahora en mi documento de identidad.
+                        PD: A la semana nos mudabamos a Barranquilla.
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.764219037057!2d-74.86346231462393!3d10.777492359282958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5da0b7c3bb941%3A0x4b5abd7d2f9d255c!2sPolonuevo%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1699332526471!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <section>
+                    <h2>¿Donde estudie?</h2>
+                    <dl>
+                        <dt>Primaria</dt>
+                        <dd>Hasta los 10 años de edad estudie en un colegio llamado, GICOR,
+                            Gimnasio Colombo Republicano, toda mi primaria.
+                        </dd>
+                        <dt>Secundaria</dt>
+                        <dd>Estudia todo mi bachillerato en el colegio Francisco Jose De Caldas,
+                            de donde tengo los mas bonitos recuerdos; mi bachillerato fue tecnico con enfasis 
+                            en ciencias naturales, osea:
+                            <ul>
+                                <li>Matematica</li>
+                                <li>Fisica</li>
+                                <li>Quimica</li>
+                            </ul>
+                        </dd>
+                        <dt>Universidad</dt>
+                        <dd>Orgullosamene egresado de la Universidad del Atlantico con titulo en 
+                            Ingenieria Industrial, un titulo que me costo bastate trabajo y trasnochos.
+                            Aqui les dejo un link para que la visiten y conoscan:
+                            <div><a href="https://www.uniatlantico.edu.co/">Universidad del Atlantico</a></div>                  
+                        </dd> 
+                    </dl>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.258877010982!2d-74.87577482577422!3d11.01919335467055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42c76792046e5%3A0x815b52c179f466ee!2sUniversidad%20del%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1699334113686!5m2!1ses!2sco" 
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </section>
+                <section>
+                    <h2>Mi Rutina Diaria.</h2>
+                    <table>
+                        <thead>
+                            <th></th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sabado</th>
+                            <th>Domingo</th>
+                        </thead>
+                        <tbody>
+                            <tr id="content">
+                                <td>04:30 - 06:00</td>
+                                <td>Ejercitarme</td>
+                                <td>Ejercitarme</td>
+                                <td>Ejercitarme</td>
+                                <td>Ejercitarme</td>
+                                <td>Ejercitarme</td>
+                                <td>Ejercitarme</td>
+                                <td>Montar Bicicleta</td>
+                            </tr>
+                            <tr>
+                                <td>06:00 - 07:00</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Alistarme para el trabajo</td>
+                                <td>Montar Bicicleta</td>
+                            </tr>
+                            <tr id="content">
+                                <td>07:00 - 08:00</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Conducir al trabajo</td>
+                                <td>Montar Bicicleta</td>
+                            </tr>
+                            <tr>
+                                <td>08:00 - 12:00</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Montar Bicicleta</td>
+                            </tr>
+                            <tr id="content">
+                                <td>12:00 - 14:00</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Almorzar + Hobbie</td>
+                                <td>Bañarme y Almorzar</td>
+                            </tr>
+                            <tr>
+                                <td>14:00 - 16:00</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Trabajar</td>
+                                <td>Hobbie</td>
+                            </tr>
+                            <tr id="content">
+                                <td>16:00 - 17:00</td>
+                                <td>Conducir a casa</td>
+                                <td>Conducir a casa</td>
+                                <td>Conducir a casa</td>
+                                <td>Conducir a casa</td>
+                                <td>Conducir a casa</td>
+                                <td>Conducir a casa</td>
+                                <td>Hobbie</td>
+                            </tr>
+                            <tr>
+                                <td>17:00 - 18:00</td>
+                                <td>Descansar</td>
+                                <td>Descansar</td>
+                                <td>Descansar</td>
+                                <td>Descansar</td>
+                                <td>Descansar</td>
+                                <td>Descansar</td>
+                                <td>Hobbie</td>
+                            </tr>
+                            <tr id="content">
+                                <td>18:00 - 22:00</td>
+                                <td>Asistir a clase BIT</td>
+                                <td>Asistir a clase BIT</td>
+                                <td>Asistir a clase BIT</td>
+                                <td>Asistir a clase BIT</td>
+                                <td>Asistir a clase BIT</td>
+                                <td>Compartir en casa</td>
+                                <td>Hobbie</td>
+                            </tr>
+                            <tr>
+                                <td>22:00 - 04:30 + 1</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                                <td>Dormir</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <H2>¿A que me refiero con hobbies?</H2>
+                    <ul>
+                        <li>Leer un libro</li>
+                        <li>Ver Peliculas</li>
+                        <li>Jugar un videojuego</li>
+                        <li>Salir a comer algo</li>
+                    </ul>
+                    <p>Cada semana practico todos estos.</p>
+                </section>
+                <section>
+                    <h2>Mi cancion preferida</h2>
+                    <p>A continuacion les presento mi cancion preferida, de Diomedez Diaz y Juancho Polo.
+                        Me gusta mucho por que es una obra maestra y para mi la mejor no solo por la voz si no 
+                        tambine por el magistral acordeon que suena en esta cancion.
+                    </p>
+                    <audio src="assests/Lucero Espiritual - Diomedez Diaz.mp3"controls autoplay></audio>
+                </section>
+                <section>
+                    <h2>Una serie animada que siempre me ha gustado.</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3UDsYZzQVd4?si=u5yRz07RyGwaJbAG" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+            </nav>
+        </main>
+        <footer>
+            <a href="www.linkedin.com/in/leonhard-iglesias-vargas-83b21622b">a mi linkding</a>
+            <p>Mi correo es: leonhardiv94@gmail.com</p>
+        </footer>
+    </body>
 </html>
