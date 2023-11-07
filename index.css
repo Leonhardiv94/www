@@ -1,0 +1,62 @@
+*{
+    padding: 1%;
+}
+body{
+    background: lightgray;
+    font-family: Arial;
+}
+header{
+    /*border: 1pt solid red;*/
+    background: lightyellow;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+section{
+    background: lightyellow;
+    margin: 10pt;
+    padding: 30pt;
+}
+h1{
+    background: lightblue;
+}
+h2{
+    background: lightblue;
+    height: 30pt;
+    padding: 5pt;
+    text-align: center;
+}
+footer{
+    /*border: 1pt solid red;*/
+    background: lightyellow;
+    text-align: center;
+}
+a{
+    background: lightcyan;
+}
+p{
+    background: lightcyan;
+}
+dl{
+    background: lightcyan;
+}
+table{
+    background: lightcyan;
+    border: 1pt solid black;
+}
+th{
+    border: 1pt solid black;
+}
+td{
+    border: 1pt solid black;
+}
+ul{
+    background: lightcyan;
+    padding: 20pt; 
+}
+#content{
+    background: lightyellow;
+}
